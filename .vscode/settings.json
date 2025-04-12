@@ -41,6 +41,10 @@
         "vulkan_backend.h": "c",
         "renderer_types.h": "c",
         "string_tests.h": "c",
-        "vulkan_device.h": "c"
+        "vulkan_device.h": "c",
+        "vulkan.h": "c",
+        "vulkan_xcb.h": "c",
+        "pthread.h": "c",
+        "sendfile.h": "c"
     }
 }
