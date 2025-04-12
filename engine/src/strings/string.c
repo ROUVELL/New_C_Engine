@@ -92,7 +92,11 @@ i64 cstr_ncmp(const char* str1, const char* str2, u64 max_len) {
 
 i64 cstr_ncmpi(const char* str1, const char* str2, u64 max_len) {
 #if USE_STD_STR
+#if PLATFORM_WINDOWS
     return (i64)_strnicmp(str1, str2, max_len);
+#else
+    return (i64)strncasecmp(str1, str2, max_len);
+#endif
 #else
     char* lower1 = nullptr;
     char* lower2 = nullptr;

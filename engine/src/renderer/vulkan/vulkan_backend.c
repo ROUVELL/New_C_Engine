@@ -64,7 +64,7 @@ b8 vulkan_renderer_initialize(const char* app_name, u16 window_width, u16 window
 
     // Validation layers
 #if ENGINE_DEBUG
-    darray_push(required_validation_layers, &"VK_LAYER_KHRONOS_validation");
+    // darray_push(required_validation_layers, &"VK_LAYER_KHRONOS_validation");
 
     // NOTE: Check?
 #endif

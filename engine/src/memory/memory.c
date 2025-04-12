@@ -8,6 +8,7 @@
 #include "threads/mutex.h"
 
 #include "core/logger.h"
+#include "strings/string.h"
 
 #define USE_CUSTOM_MEMORY_ALLOCATOR 1
 
@@ -292,6 +293,6 @@ char* memory_get_usage_str() {
 
     snprintf(buffer + offset, 1024, "  Total allocated: %llu\n  Allocations count: %llu\n", state_ptr->total_allocated, state_ptr->allocation_count);
 
-    char* out_str = _strdup(buffer);
+    char* out_str = cstr_duplicate(buffer);
     return out_str;
 }
