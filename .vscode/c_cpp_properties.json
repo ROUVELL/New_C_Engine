@@ -1,0 +1,40 @@
+{
+    "configurations": [
+        {
+           "name": "Linux",
+           "includePath": [
+            "${workspaceFolder}/engine/src/**",
+            "${VULKAN_SDK}/Include"
+           ],
+           "defines": [
+            "_DEBUG",
+            "UNICODE",
+            "_EXPORT",
+            "_GNU_SOURCE"
+           ],
+           "compilerPath": "/usr/bin/clang",
+           "cStandard": "c17",
+           "cppStandard": "c++17",
+           "intelliSenseMode": "clang-x64"
+        },
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/engine/src/**",
+                "${VULKAN_SDK}/Include"
+           ],
+           "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE",
+                "_EXPORT"
+           ],
+           "windowsSdkVersion": "10.0.10362.0",
+           "compilerPath": "C:\\Program Files\\LLVM\\bin\\clang.exe",
+           "cStandard": "c17",
+           "cppStandard": "c++17",
+           "intelliSenseMode": "clang-x64"
+        }
+    ],
+    "version": 4
+}

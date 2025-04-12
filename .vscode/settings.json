@@ -1,0 +1,46 @@
+{
+    "todohighlight.isEnable": true,
+    "todohighlight.keywords": [
+        {
+            "text": "TODO:",
+            "color": "green",
+            "backgroundColor": "rgba(0,0,0,0)"
+        },
+        {
+            "text": "HACK:",
+            "color": "red",
+            "backgroundColor": "rgba(0,0,0,0)"
+        },
+        {
+            "text": "NOTE:",
+            "color": "blue",
+            "backgroundColor": "rgba(0,0,0,0)"
+        }
+    ],
+    "files.associations": {
+        "asserts.h": "c",
+        "platform.h": "c",
+        "defines.h": "c",
+        "logger.h": "c",
+        "engine.h": "c",
+        "darray.h": "c",
+        "input.h": "c",
+        "queue.h": "c",
+        "memory.h": "c",
+        "stdlib.h": "c",
+        "u64_bst.h": "c",
+        "string.h": "c",
+        "expected": "cpp",
+        "math.h": "c",
+        "math_types.h": "c",
+        "vulkan_types.h": "c",
+        "gl.h": "c",
+        "glu.h": "c",
+        "vulkan_platform.h": "c",
+        "mutex.h": "c",
+        "vulkan_backend.h": "c",
+        "renderer_types.h": "c",
+        "string_tests.h": "c",
+        "vulkan_device.h": "c"
+    }
+}
